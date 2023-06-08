@@ -2,8 +2,8 @@ input.onButtonPressed(Button.A, function () {
     sovegbetunként(soveg2)
 })
 function sovegbetunként (text: string) {
-    for (let index = 0; index <= soveg2.length; index++) {
-        basic.showString(soveg2.charAt(index))
+    for (let index = 0; index <= text.length; index++) {
+        basic.showString(text.charAt(index))
         basic.clearScreen()
         basic.pause(50)
     }
@@ -17,7 +17,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let betukodja = 0
 let soveg2 = ""
-let szoveg = "Dr"
+let szoveg1 = "Dr"
 soveg2 = "Barnabasxxxxxxxx"
 let soveg3 = "Istvan"
 basic.forever(function () {
